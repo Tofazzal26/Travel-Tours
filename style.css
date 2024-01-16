@@ -42,6 +42,9 @@
     font-weight: 800;
 }
 
+.travel-list i{
+    display: none;
+}
 
 .travel-list {
     width: 50%;
@@ -280,6 +283,59 @@
 
 
 
+    /* inspiration style start */
+
+
+.inspiration-content {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.inspiration-content h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.inspiration-content p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+
+
+.inspiration {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px;
+}
+
+
+.inspiration-place {
+    margin: 50px 10px;
+}
+
+.inspiration-place img {
+    border-radius: 4px;
+}
+
+.inspiration-place h4{
+    color: #051036;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    margin-top: 15px;
+}
+
+
+.inspiration-place p{
+    color: #697488;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
 
     /* why choose us style */
 
@@ -414,6 +470,8 @@
     font-weight: 400;
     line-height: 26px;
 }
+
+
 
 
 
@@ -642,14 +700,14 @@
 
 
 @media screen and (max-width: 600px) {
-    .header-container, .why-choose-content,
-    .simple-perfect-place, .newsletter-content
+    .why-choose-content,
+    .simple-perfect-place, .newsletter-content, .inspiration
     {
         flex-direction: column;
     }
     .explore-travel, .our-popular-content, .explore-travel-description p,
     .your-destination p, .why-choose p, .why-choose-box, .why-choose-box2,
-    .why-choose-box3, .simple-content, .simple-views, .social-icon p
+    .why-choose-box3, .simple-content, .simple-views, .social-icon p, .inspiration-place img
     {
         width: 100%;
     }
@@ -658,14 +716,21 @@
     {
         width: 100%;
     }
-    .travel-list {
+    
+    .travel-list a{
         display: none;
+    }
+
+    .travel-list i{
+        display: block;
     }
     .explore-input {
         display: flex;
         flex-direction: column;
         gap: 20px;
     }
+
+    
 
     .explore-content {
         padding-top: 40px;
@@ -723,19 +788,28 @@
 
 
 @media screen and (min-width: 601px) and (max-width: 992px){
-    .header-container, .popular-tours, .why-choose-content,
-    .simple-perfect-place, .newsletter-content
+    .popular-tours, .why-choose-content,
+    .simple-perfect-place, .newsletter-content, .inspiration
     {
         flex-direction: column;
     }
     .explore-travel, .our-popular-content, .explore-travel-description p,
     .why-choose-box, .why-choose-box2, .why-choose-box3, .simple-content,
-    .simple-views, .newsletter-input input, .newsletter-input button, .newsletter-input p,.newsletter-input,.newsletter-view img, .social-icon p
+    .simple-views, .newsletter-input input, .newsletter-input button, .newsletter-input p,.newsletter-input,.newsletter-view img, .social-icon p,
+    .inspiration-place img
     {
         width: 100%;
     }
     .newsletter-view {
         margin-left: 0px;
+    }
+
+    .travel-list a{
+        display: none;
+    }
+
+    .travel-list i{
+        display: block;
     }
 
     .travel-logo {
