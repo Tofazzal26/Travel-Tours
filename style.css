@@ -637,10 +637,145 @@
 
 
 
+    /* phone responsive style here */
 
 
 
+@media screen and (max-width: 600px) {
+    .header-container, .why-choose-content,
+    .simple-perfect-place, .newsletter-content
+    {
+        flex-direction: column;
+    }
+    .explore-travel, .our-popular-content, .explore-travel-description p,
+    .your-destination p, .why-choose p, .why-choose-box, .why-choose-box2,
+    .why-choose-box3, .simple-content, .simple-views, .social-icon p
+    {
+        width: 100%;
+    }
+
+    .travel-logo, .newsletter-input input, .newsletter-input button, .newsletter-input p
+    {
+        width: 100%;
+    }
+    .travel-list {
+        display: none;
+    }
+    .explore-input {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .explore-content {
+        padding-top: 40px;
+    }
+
+    .why-choose-box2, .simple-perfect-place {
+        margin-top: 25px;
+    }
+
+    .popular-tours {
+        flex-direction: column;
+    }
+
+    .newsletter-input, .newsletter-view img
+    {
+        width: 100%;
+    }
+
+    .newsletter-view {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .our-popular-img {
+        padding-left: 0px;
+        width: 100%;
+    }
+
+    .our-popular-img img {
+        width: 100%;
+    }
+
+    .destination-area {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .save {
+        top: 280px;
+        left: 0px;
+        transform: rotate(360deg);
+    }
 
 
+    .social-content {
+        margin-top: 300px;
+    }
+
+
+
+}
+
+
+    /* table responsibe style here */
+
+
+@media screen and (min-width: 601px) and (max-width: 992px){
+    .header-container, .popular-tours, .why-choose-content,
+    .simple-perfect-place, .newsletter-content
+    {
+        flex-direction: column;
+    }
+    .explore-travel, .our-popular-content, .explore-travel-description p,
+    .why-choose-box, .why-choose-box2, .why-choose-box3, .simple-content,
+    .simple-views, .newsletter-input input, .newsletter-input button, .newsletter-input p,.newsletter-input,.newsletter-view img, .social-icon p
+    {
+        width: 100%;
+    }
+    .newsletter-view {
+        margin-left: 0px;
+    }
+
+    .travel-logo {
+        width: 100%;
+    }
+    .travel-list a{
+        margin: 0px 15px;
+    }
+    .why-choose-box2, .simple-perfect-place {
+        margin-top: 25px;
+    }
+    .explore-input {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .our-popular-img {
+        padding-left: 0px;
+        width: 100%;
+    }
+
+    .explore-content {
+        padding-top: 40px;
+    }
+
+    .destination-area {
+        display: flex;
+        flex-direction: column;
+    }
+    .save {
+        top: 280px;
+        left: 0px;
+        transform: rotate(360deg);
+    }
+
+    .social-content {
+        margin-top: 520px;
+    }
+
+
+}
 
 
