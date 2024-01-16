@@ -730,7 +730,9 @@
         gap: 20px;
     }
 
-    
+    .newsletter-view {
+        margin-top: 50px;
+    }
 
     .explore-content {
         padding-top: 40px;
@@ -802,6 +804,7 @@
     }
     .newsletter-view {
         margin-left: 0px;
+        margin-top: 50px;
     }
 
     .travel-list a{
